@@ -1,0 +1,10 @@
+package greeter
+
+object sandbozzz extends App{
+  println("Welcome to Scala")      
+  val x = 3                                      
+  def increase(i: Int) = i + 1                    
+  increase(x)                                   
+  println("Now the value of x is: " + increase(x)) 
+}
+

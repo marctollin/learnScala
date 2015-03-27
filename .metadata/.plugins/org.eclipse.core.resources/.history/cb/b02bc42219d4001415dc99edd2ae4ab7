@@ -1,0 +1,13 @@
+package greeter
+
+object sandbozzz extends App{
+  println("Welcome to Scala")      
+  var x:Int = 30                                  
+  def increase(i: Int) : Int = {
+    var sum:Int = 0
+    sum = i+5
+    return sum
+  }                                                      
+  println("Now the value of x is: " + increase(x)) 
+}
+
